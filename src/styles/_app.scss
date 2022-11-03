@@ -1,0 +1,25 @@
+@use '../styles/variables.scss';
+
+body {
+	font-family: 'Questrial', sans-serif;
+	font-style: normal;
+	font-weight: $normalFontWeight;
+	font-size: $defaultFontSize;
+	line-height: $defaultLineHeighttSize;
+	max-width: $maxWidth;
+	min-height: 100vh;
+	color: $fontColor;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+	margin: 0 auto;
+	padding: 6.25rem; // 100px
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transition: $defaultTransition;
+}
+
+*::-webkit-scrollbar {
+	display: none;
+}
