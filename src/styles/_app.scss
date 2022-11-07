@@ -1,23 +1,31 @@
 @use '../styles/variables.scss';
 
 body {
-	font-family: 'Questrial', sans-serif;
+	font-family: 'Suisse';
 	font-style: normal;
+	font-weight: 400;
 	font-weight: $normalFontWeight;
 	font-size: $defaultFontSize;
-	line-height: $defaultLineHeighttSize;
+	line-height: $defaultLineHeight;
 	max-width: $maxWidth;
 	min-height: 100vh;
-	color: $fontColor;
-	box-sizing: border-box;
+	color: $defaultFontColor;
+	background: linear-gradient(to top, #f3f3f3, #f3f3f3 16.8125rem, #fff 16.8125rem);
 	scroll-behavior: smooth;
+	background: linear-gradient();
 	-ms-overflow-style: none; /* IE and Edge */
 	scrollbar-width: none; /* Firefox */
 	margin: 0 auto;
-	padding: 6.25rem; // 100px
+	padding: 6.25rem 6.25rem 3rem; // 100px
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	transition: $defaultTransition;
+
+	@media (max-width: $mobileMaxWidth) {
+		font-size: 1rem;
+		line-height: 0.875rem;
+		padding: 2rem 1.5rem;
+	}
 }
 
 *::-webkit-scrollbar {

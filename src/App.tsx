@@ -1,11 +1,11 @@
-import { Hero } from './components/Hero';
+import { NavBar, Hero, Footer } from './components';
 
-const App = () => {
-	return (
-		<div className='App'>
-			<Hero />
-		</div>
-	);
-};
+const App = () => (
+	<>
+		<NavBar />
+		<Hero />
+		<Footer />
+	</>
+);
 
 export default App;

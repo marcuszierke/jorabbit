@@ -1,0 +1,15 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+
+	ul {
+		padding: 0;
+		list-style: none;
+		display: flex;
+		gap: 6.5625rem; // 105px
+
+		li {
+			cursor: pointer;
+		}
+	}
+}

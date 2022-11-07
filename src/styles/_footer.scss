@@ -1,0 +1,35 @@
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+
+	.info,
+	.legal {
+		display: flex;
+		align-items: flex-end;
+		gap: 5.625rem; // 90px
+	}
+
+	.lang {
+		display: flex;
+
+		& > * {
+			cursor: pointer;
+
+			&:not(:last-child):after {
+				content: '|';
+				font-size: 2.25rem;
+				padding: 0 0.5rem;
+			}
+		}
+	}
+
+	a {
+		text-decoration: none;
+		color: $defaultFontColor;
+	}
+
+	button {
+		all: unset;
+	}
+}

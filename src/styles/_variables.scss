@@ -1,6 +1,18 @@
+// COLORS
+$defaultFontColor: #000;
+
+// DIMENSIONS
 $maxWidth: 85.3125rem; // 1365px
-$fontColor: #000;
+$mobileMaxWidth: 30rem; // 480px
+$mobileMinWidth: 23.4375rem; // 375px
+
+// FONT
 $normalFontWeight: normal;
-$defaultFontSize: 1rem;
-$defaultLineHeighttSize: 1.25rem;
+$defaultFontSize: 1.876rem; // 30px
+$defaultLineHeight: 2.4375rem; // 39px
+
+// STYLING
 $defaultTransition: 0.2s all ease-in-out;
+$defaultGap: 6.5625rem; // 105px
+
+// TODO: all hover + accessibility

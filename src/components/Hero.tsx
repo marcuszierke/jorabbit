@@ -1,1 +1,7 @@
-export const Hero = () => <h1 className='hero'>Spotting the future</h1>;
+import { useTranslation } from 'react-i18next';
+
+export const Hero = () => {
+	const { t } = useTranslation();
+
+	return <div className='hero'>{t('heroTitle')}</div>;
+};
