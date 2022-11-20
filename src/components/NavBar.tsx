@@ -2,7 +2,7 @@ import { ReactComponent as Logo } from '../assets/logo.svg';
 
 export const NavBar = () => (
 	<nav>
-		<Logo />
+		<Logo className='logo' />
 		<ul className='tabs'>
 			<li>Service</li>
 			<li>About</li>

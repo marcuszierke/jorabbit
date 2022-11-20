@@ -1,0 +1,23 @@
+.services {
+	padding: 9.125rem $defaultPadding 2rem;
+
+	p {
+		font-size: 3.125rem;
+		line-height: 4.0625rem;
+		margin: 0;
+		margin-bottom: 6.375rem;
+	}
+
+	#services {
+		text-decoration: underline;
+	}
+
+	@media screen and (max-width: $mobileWidth) {
+		padding: 4.5rem $defaultMobilePadding 1rem;
+
+		p {
+			font-size: 1.25rem;
+			line-height: 1.625rem;
+		}
+	}
+}
