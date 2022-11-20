@@ -1,15 +1,32 @@
 nav {
 	display: flex;
 	justify-content: space-between;
+	padding: 4.25rem $defaultPadding 2.25rem;
+
+	@media screen and (max-width: $mobileWidth) {
+		padding: 1.875rem $defaultMobilePadding;
+	}
 
 	ul {
 		padding: 0;
 		list-style: none;
 		display: flex;
-		gap: 6.5625rem; // 105px
+		gap: 2.5rem;
+
+		@media screen and (max-width: $mobileWidth) {
+			gap: 1.125rem;
+			font-size: 0.875rem;
+			line-height: 1.125rem;
+		}
 
 		li {
 			cursor: pointer;
 		}
+	}
+}
+
+.logo {
+	@media screen and (max-width: $mobileWidth) {
+		height: 33px;
 	}
 }

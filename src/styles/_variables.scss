@@ -2,17 +2,18 @@
 $defaultFontColor: #000;
 
 // DIMENSIONS
-$maxWidth: 85.3125rem; // 1365px
-$mobileMaxWidth: 30rem; // 480px
-$mobileMinWidth: 23.4375rem; // 375px
+$maxWidth: 146.375rem; // 2342
+$mobileWidth: 30rem; // 380px @jona
 
 // FONT
-$normalFontWeight: normal;
-$defaultFontSize: 1.876rem; // 30px
-$defaultLineHeight: 2.4375rem; // 39px
+$normalFontWeight: 400;
+$defaultFontSize: 1.25rem; // 20
+$defaultLineHeight: 1.625rem; // 26
 
 // STYLING
 $defaultTransition: 0.2s all ease-in-out;
 $defaultGap: 6.5625rem; // 105px
+$defaultPadding: 5rem; // 80px
+$defaultMobilePadding: 1.125rem; // 18px
 
 // TODO: all hover + accessibility

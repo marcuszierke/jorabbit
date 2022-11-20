@@ -1,4 +1,7 @@
 {
-	"heroTitle": "Spotting the future",
+	"hero": {
+		"title": "Spotting the future",
+		"text": "Wir sind ein Beratungsstudio zur Innovation & UX Entwicklung digitaler Produkte und Services für die Kundenbedürfnisse von morgen."
+	},
 	"footer": { "imprint": "Imprint", "policy": "Privacy Policy" }
 }
