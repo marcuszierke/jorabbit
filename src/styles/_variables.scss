@@ -1,20 +1,22 @@
 // COLORS
 $defaultFontColor: #000;
 $highlightColor: #00ff4a;
+$greyBackgroundColor: #f6f6f6;
 
 // DIMENSIONS
-$maxWidth: 146.375rem; // 2342
+$maxWidth: 146.375rem; // 2342px
 $mobileWidth: 30rem; // 380px @jona
 
 // FONT
 $normalFontWeight: 400;
-$defaultFontSize: 1.25rem; // 20
-$defaultLineHeight: 1.625rem; // 26
+$defaultFontSize: 1.25rem; // 20px
+$defaultLineHeight: 1.625rem; // 26px
+$textContainerMaxWidth: 40rem; // 640px
 
 // STYLING
 $defaultTransition: 0.2s all ease-in-out;
 $defaultGap: 6.5625rem; // 105px
 $defaultPadding: 5rem; // 80px
-$defaultMobilePadding: 1.125rem; // 18px
+$defaultMobilePadding: 1rem; // 16px
 
 // TODO: all hover + accessibility

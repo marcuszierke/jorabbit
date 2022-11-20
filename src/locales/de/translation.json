@@ -1,4 +1,21 @@
 {
-	"heroTitle": "Spotting deine Mudda",
-	"footer": { "imprint": "Impressum", "policy": "Datenschutz" }
+	"hero": {
+		"title": "Spotting the future",
+		"text": "Wir sind ein Beratungsstudio zur Innovation & UX Entwicklung digitaler Produkte und Services für die Kundenbedürfnisse von morgen."
+	},
+	"services": {
+		"title": "Die Challenge",
+		"text": "Innovations-Prozesse in Konzernen sind häufig ineffizient und springen im Ergebnis zu kurz. Zu viel Fokus auf das Produkt. Zu wenig Orientierung am Nutzerbedürfnis - so entstehen Weiterentwicklungen. Aber nicht bahnbrechende Neuerungen.",
+		"link": "Services"
+	},
+	"solution": {
+		"title": "Die Lösung",
+		"text": "Unsere Innovationsmethoden explorieren und lokalisieren systematisch (forschungsgeführt) Bedürfnisse und Insights von Nutzern. Aus diesem Wissen heraus schaffen wir gemeinsam mit Unternehmen strategisch weitreichende Produkte und Services für die Geschäftsmodelle und die Wertschöpfung der Zukunft. Unser Innovationsansatz basiert auf Design Thinking & Lean UX. Mit Hilfe von UX-Konzepten, Prototypen und Produktvisionen machen wir das Neue erlebbar.",
+		"graphic": "Lösungszyklus",
+		"strategy": "UX Strategy",
+		"research": "(User/UX) Research",
+		"design": "UX Concept & Design",
+		"testing": "Prototyping & Testing"
+	},
+	"footer": { "imprint": "Imprint", "policy": "Privacy Policy" }
 }

@@ -1,0 +1,48 @@
+.solution {
+	display: flex;
+	width: 100%;
+	// align-items: stretch;
+
+	.graphic {
+		flex: 1;
+		background-color: $highlightColor;
+		margin: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		img {
+			width: 100%;
+			justify-content: center;
+		}
+	}
+
+	.info {
+		flex: 1;
+		background-color: $greyBackgroundColor;
+		padding: 4rem;
+
+		.title {
+			text-decoration: underline;
+		}
+
+		.text {
+			margin: 2rem 0 4.125rem;
+			max-width: $textContainerMaxWidth;
+		}
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	@media screen and (max-width: $mobileWidth) {
+		flex-direction: column;
+
+		.info {
+			padding: 2rem $defaultMobilePadding;
+		}
+	}
+}

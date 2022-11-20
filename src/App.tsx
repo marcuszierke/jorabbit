@@ -1,10 +1,11 @@
-import { NavBar, Hero, Services } from './components';
+import { NavBar, Hero, Services, Solution } from './components';
 
 const App = () => (
 	<>
 		<NavBar />
 		<Hero />
 		<Services />
+		<Solution />
 	</>
 );
 
