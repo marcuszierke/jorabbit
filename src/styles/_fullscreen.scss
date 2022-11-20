@@ -1,0 +1,23 @@
+figure.fullscreen {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0;
+
+	figcaption {
+		padding: 2rem $defaultPadding 1.25rem;
+		text-align: right;
+		font-size: 1.125rem;
+		line-height: 1.5rem;
+
+		@media screen and (max-width: $mobileWidth) {
+			padding: 1.25rem $defaultMobilePadding 2rem;
+			font-size: 0.875rem;
+			line-height: 1rem;
+		}
+
+		img {
+			width: 100%;
+		}
+	}
+}

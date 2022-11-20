@@ -1,4 +1,9 @@
 {
+	"navbar": {
+		"services": "Services",
+		"about": "About",
+		"contact": "Contact"
+	},
 	"hero": {
 		"title": "Spotting the future",
 		"text": "Wir sind ein Beratungsstudio zur Innovation & UX Entwicklung digitaler Produkte und Services für die Kundenbedürfnisse von morgen."
@@ -16,6 +21,13 @@
 		"research": "(User/UX) Research",
 		"design": "UX Concept & Design",
 		"testing": "Prototyping & Testing"
+	},
+	"fullscreen": {
+		"alt": "Behind the scenes, Designprozess"
+	},
+	"about": {
+		"link": "About",
+		"text": "Splore hat seinen Ursprung in UX/UI Design, Design Thinking und Innovationsberatung, und sitzt in München."
 	},
 	"footer": { "imprint": "Imprint", "policy": "Privacy Policy" }
 }

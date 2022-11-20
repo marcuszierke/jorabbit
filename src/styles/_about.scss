@@ -1,0 +1,43 @@
+.about {
+	padding: 0 $defaultPadding 7.75rem;
+
+	#about {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		position: relative;
+		width: 100%;
+
+		p {
+			font-size: 3.125rem;
+			line-height: 4.0625rem;
+			margin: 0;
+			max-width: 45rem;
+		}
+
+		.link {
+			position: absolute;
+			left: 0;
+			top: 0;
+			text-decoration: underline;
+		}
+	}
+
+	@media screen and (max-width: $mobileWidth) {
+		padding: 0 $defaultMobilePadding 1.75rem;
+
+		#about {
+			flex-direction: column;
+
+			.link {
+				position: relative;
+				margin-bottom: 0.75rem;
+			}
+
+			p {
+				font-size: 1.125rem;
+				line-height: 1.625rem;
+			}
+		}
+	}
+}

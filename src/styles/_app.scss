@@ -10,10 +10,10 @@ body {
 	word-break: word-break;
 	// max-width: $maxWidth;
 	color: $defaultFontColor;
-	scroll-behavior: smooth;
 	box-sizing: border-box;
 	-ms-overflow-style: none; /* IE and Edge */
 	scrollbar-width: none; /* Firefox */
+	scroll-behavior: smooth;
 	margin: 0 auto;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;

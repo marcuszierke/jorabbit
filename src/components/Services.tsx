@@ -5,10 +5,10 @@ export const Services = () => {
 	const { t } = useTranslation();
 
 	return (
-		<div className='services'>
+		<div className='services' id='services'>
 			<Headline>{t('services.title')}</Headline>
 			<p>{t('services.text')}</p>
-			<div id='services'>{t('services.link')}</div>
+			<div className='link'>{t('services.link')}</div>
 		</div>
 	);
 };

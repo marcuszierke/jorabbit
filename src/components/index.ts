@@ -1,4 +1,7 @@
+export * from './About';
+export * from './Filler';
 export * from './Footer';
+export * from './FullScreenImage';
 export * from './Headline';
 export * from './Hero';
 export * from './NavBar';

@@ -1,0 +1,8 @@
+.filler {
+	background-color: $highlightColor;
+	height: 50rem;
+
+	@media screen and (max-width: $mobileWidth) {
+		height: 34rem;
+	}
+}
