@@ -4,7 +4,7 @@
 
 	#feedback {
 		display: flex;
-		justify-content: center;
+		flex-direction: column;
 		align-items: center;
 		position: relative;
 		width: 100%;
@@ -35,7 +35,6 @@
 		padding: 2rem $defaultMobilePadding 4rem;
 
 		#feedback {
-			flex-direction: column;
 			align-items: flex-start;
 
 			.link {

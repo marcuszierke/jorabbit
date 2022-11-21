@@ -7,8 +7,8 @@ export const Footer = () => {
 		<footer id='contact'>
 			<div className='info'>
 				<div className='contact'>
-					<div>E hello@splore.de</div>
-					<div>T +49 176 322 51462</div>
+					<a href='mailto:hello@splore.de?subject=Hi Jona!'>E hello@splore.de</a>
+					<a href='tel:+4917632251462'>T +49 176 322 51462</a>
 				</div>
 				<div className='address'>
 					<div>Splore GmbH</div>

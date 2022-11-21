@@ -5,6 +5,8 @@ type Props = {
 };
 export const Headline = ({ children }: Props) => (
 	<div className='headline'>
-		<h2>{children}</h2>
+		<h2 className='gradient padding'>
+			<span>{children}</span>
+		</h2>
 	</div>
 );
