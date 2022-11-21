@@ -1,13 +1,17 @@
 footer {
 	display: flex;
+	background-color: $defaultBackgroundColor;
+	padding: 8.5rem $defaultPadding 4rem;
 	justify-content: space-between;
 	align-items: flex-end;
+	font-size: 1.125rem;
+	line-height: 1.5rem;
 
 	.info,
 	.legal {
 		display: flex;
 		align-items: flex-end;
-		gap: 5.625rem; // 90px
+		gap: 3.5rem;
 	}
 
 	.lang {
@@ -18,7 +22,7 @@ footer {
 
 			&:not(:last-child):after {
 				content: '|';
-				font-size: 2.25rem;
+				font-size: 1.25rem;
 				padding: 0 0.5rem;
 			}
 		}
@@ -31,5 +35,28 @@ footer {
 
 	button {
 		all: unset;
+	}
+
+	@media screen and (max-width: $mobileWidth) {
+		padding: 5.5rem $defaultMobilePadding 1rem;
+		flex-direction: column;
+		justify-content: flex-start;
+		font-size: 1rem;
+		line-height: 1.25rem;
+
+		.info {
+			align-items: flex-start;
+		}
+
+		.info,
+		.legal {
+			gap: 1rem;
+			width: 100%;
+		}
+
+		.lang {
+			margin-left: auto;
+			margin-top: 4.5rem;
+		}
 	}
 }

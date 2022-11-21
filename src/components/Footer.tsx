@@ -4,7 +4,7 @@ export const Footer = () => {
 	const { i18n, t } = useTranslation();
 
 	return (
-		<footer>
+		<footer id='contact'>
 			<div className='info'>
 				<div className='contact'>
 					<div>E hello@splore.de</div>

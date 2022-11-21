@@ -29,6 +29,23 @@
 		"link": "About",
 		"text": "Splore hat seinen Ursprung in UX/UI Design, Design Thinking und Innovationsberatung, und sitzt in München."
 	},
+	"profile": {
+		"intro": "Splore-Gründer Jona Rammler ist Experte für UX & die Entwicklung digitaler Produkte und Services.",
+		"text": "8+ Jahre Erfahrung in nutzerzentriertem Design Design Thinking, Nutzerforschung, UX/UI-Design Strategische Sichtweise und praktische Designfähigkeiten Ehemaliger Innovationsberater bei Deloitte Ehemaliger Design Director UX/UI Design bei HID human interface design",
+		"industry": "Branchen",
+		"healthcare": "Life Science & Healthcare",
+		"solutions": " Industry Solutions",
+		"enterprise": "Enterprise Software Solutions",
+		"logistics": "Logistics",
+		"home": " Smart Home",
+		"safety": "Safety Technology"
+	},
+	"feedback": {
+		"link": "Kundenfeedback",
+		"highlight": "User-Centrered Design als wahrer Innovationsprozess.",
+		"text": "Evidenzbasierte Mehrwerte, überzeugend kommuniziert, kreiert echten Impact!",
+		"source": "Tobias Eschenbach, Siemens Healthineers"
+	},
 	"references": {
 		"link": "Referenzen"
 	},

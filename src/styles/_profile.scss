@@ -1,0 +1,63 @@
+.profile {
+	display: flex;
+	width: 100%;
+
+	.pic {
+		flex: 1;
+		background-color: $highlightColor;
+		margin: 0;
+		padding: 10.5rem 2.5rem 2.5rem;
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-end;
+
+		img {
+			width: 66.6666%;
+		}
+	}
+
+	.info {
+		flex: 1;
+		background-color: $greyBackgroundColor;
+		padding: 4rem;
+
+		& > * {
+			padding-bottom: 2rem;
+		}
+
+		.text {
+			max-width: $textContainerMaxWidth;
+		}
+
+		.industry {
+			text-decoration: underline;
+		}
+
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+	}
+
+	@media screen and (max-width: $mobileWidth) {
+		flex-direction: column;
+
+		.pic {
+			padding: 0.5rem;
+			justify-content: flex-start;
+
+			img {
+				width: 50%;
+			}
+		}
+
+		.info {
+			padding: 2rem $defaultMobilePadding 4rem;
+
+			& > * {
+				padding-bottom: 1rem;
+			}
+		}
+	}
+}

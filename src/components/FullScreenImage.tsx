@@ -2,7 +2,7 @@ import { t } from 'i18next';
 import { useTranslation } from 'react-i18next';
 import fullscreen from '../assets/fullscreen.png';
 
-export const FullScreenImage = () => {
+export const FullscreenImage = () => {
 	const { t } = useTranslation();
 
 	return (

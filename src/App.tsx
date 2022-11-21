@@ -3,10 +3,12 @@ import {
 	Hero,
 	Services,
 	Solution,
-	FullScreenImage,
-	Filler,
+	FullscreenImage,
 	About,
 	References,
+	Footer,
+	Profile,
+	Feedback,
 } from './components';
 
 const App = () => (
@@ -15,10 +17,12 @@ const App = () => (
 		<Hero />
 		<Services />
 		<Solution />
-		<FullScreenImage />
+		<FullscreenImage />
 		<About />
+		<Profile />
+		<Feedback />
 		<References />
-		<Filler />
+		<Footer />
 	</>
 );
 
