@@ -7,3 +7,4 @@ export * from './Hero';
 export * from './NavBar';
 export * from './Services';
 export * from './Solution';
+export * from './References';

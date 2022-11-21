@@ -29,5 +29,8 @@
 		"link": "About",
 		"text": "Splore hat seinen Ursprung in UX/UI Design, Design Thinking und Innovationsberatung, und sitzt in München."
 	},
+	"references": {
+		"link": "Referenzen"
+	},
 	"footer": { "imprint": "Imprint", "policy": "Privacy Policy" }
 }

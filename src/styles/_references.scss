@@ -1,0 +1,50 @@
+.references {
+	background-color: $greyBackgroundColor;
+	padding: 9rem $defaultPadding;
+
+	#references {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		position: relative;
+		width: 100%;
+
+		.icons {
+			max-width: 47.5rem;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			align-items: center;
+			gap: 4.5rem;
+		}
+
+		.link {
+			position: absolute;
+			left: 0;
+			top: 0;
+			text-decoration: underline;
+		}
+	}
+
+	@media screen and (max-width: $mobileWidth) {
+		padding: 2rem 70px 5rem;
+
+		#references {
+			flex-direction: column;
+
+			.icons {
+				gap: 1rem;
+
+				img {
+					max-width: 25vw;
+					width: 100%;
+				}
+			}
+
+			.link {
+				position: relative;
+				margin-bottom: 3rem;
+			}
+		}
+	}
+}

@@ -1,4 +1,13 @@
-import { NavBar, Hero, Services, Solution, FullScreenImage, Filler, About } from './components';
+import {
+	NavBar,
+	Hero,
+	Services,
+	Solution,
+	FullScreenImage,
+	Filler,
+	About,
+	References,
+} from './components';
 
 const App = () => (
 	<>
@@ -8,6 +17,7 @@ const App = () => (
 		<Solution />
 		<FullScreenImage />
 		<About />
+		<References />
 		<Filler />
 	</>
 );
