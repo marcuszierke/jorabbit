@@ -12,8 +12,9 @@ export const Footer = () => {
 				</div>
 				<div className='address'>
 					<div>Splore GmbH</div>
-					<div>Sedanstraße 23</div>
-					<div>81667 München</div>
+					<div id='mobile'>Sedanstraße 23</div>
+					<div id='mobile'>81667 München</div>
+					<div id='desktop'>Sedanstraße 23, 81667 München</div>
 				</div>
 			</div>
 			<div className='legal'>

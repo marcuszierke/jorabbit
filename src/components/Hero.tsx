@@ -6,8 +6,14 @@ export const Hero = () => {
 	return (
 		<div className='hero'>
 			<div className='hero-content'>
-				<h1>{t('hero.title')}</h1>
-				<p>{t('hero.text')}</p>
+				<div>
+					<h1>{t('hero.title')}</h1>
+					<div style={{ flex: 1 }}></div>
+				</div>
+				<div style={{ alignSelf: 'flex-end' }}>
+					<p>{t('hero.text')}</p>
+					<div style={{ flex: 1 }}></div>
+				</div>
 			</div>
 		</div>
 	);

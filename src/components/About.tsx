@@ -4,8 +4,8 @@ export const About = () => {
 	const { t } = useTranslation();
 
 	return (
-		<div className='about'>
-			<div id='about'>
+		<div className='about' id='about'>
+			<div className='content'>
 				<div className='link'>{t('about.link')}</div>
 				<p>{t('about.text')}</p>
 			</div>

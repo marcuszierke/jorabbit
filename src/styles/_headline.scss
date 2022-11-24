@@ -1,11 +1,12 @@
 .headline {
-	display: inline-flex;
+	display: inline;
 
 	h2 {
 		margin: 0;
 		font-size: 3.125rem;
 		line-height: 4.0625rem;
 		font-weight: $normalFontWeight;
+		display: inline;
 	}
 
 	h2.gradient span {
@@ -20,7 +21,7 @@
 	}
 
 	h2.padding span {
-		padding: 0 0.5em 0 0.1em;
+		padding: 0 0.25em 0 0.1em;
 		box-decoration-break: clone;
 		-webkit-box-decoration-break: clone;
 	}

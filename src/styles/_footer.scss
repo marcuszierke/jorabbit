@@ -12,6 +12,14 @@ footer {
 		flex-direction: column;
 	}
 
+	.info {
+		.address {
+			#mobile {
+				display: none;
+			}
+		}
+	}
+
 	.info,
 	.legal {
 		display: flex;
@@ -51,6 +59,19 @@ footer {
 
 		.info {
 			align-items: flex-start;
+
+			& > * {
+				flex: 1;
+			}
+
+			.address {
+				#desktop {
+					display: none;
+				}
+				#mobile {
+					display: inline;
+				}
+			}
 		}
 
 		.info,

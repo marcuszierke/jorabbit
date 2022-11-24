@@ -1,8 +1,8 @@
 .about {
-	padding: 0 $defaultPadding 7.75rem;
+	padding: 3.75rem $defaultPadding 7.75rem;
 	background-color: $defaultBackgroundColor;
 
-	#about {
+	.content {
 		display: flex;
 		justify-content: center;
 		align-items: flex-start;
@@ -19,7 +19,7 @@
 		.link {
 			position: absolute;
 			left: 0;
-			top: 0;
+			top: 0.5rem;
 			text-decoration: underline;
 		}
 	}
@@ -27,7 +27,7 @@
 	@media screen and (max-width: $mobileWidth) {
 		padding: 0 $defaultMobilePadding 1.75rem;
 
-		#about {
+		.content {
 			flex-direction: column;
 
 			.link {

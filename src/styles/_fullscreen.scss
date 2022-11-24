@@ -6,7 +6,7 @@ figure.fullscreen {
 	margin: 0;
 
 	figcaption {
-		padding: 2rem $defaultPadding 1.25rem;
+		padding: 2rem $defaultPadding 0;
 		text-align: right;
 		font-size: 1.125rem;
 		line-height: 1.5rem;
@@ -16,9 +16,9 @@ figure.fullscreen {
 			font-size: 0.875rem;
 			line-height: 1rem;
 		}
+	}
 
-		img {
-			width: 100%;
-		}
+	img {
+		width: 100%;
 	}
 }

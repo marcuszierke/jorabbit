@@ -6,12 +6,11 @@ export const Feedback = () => {
 
 	return (
 		<div className='feedback'>
-			<div id='feedback'>
-				<div className='link'>{t('feedback.link')}</div>
-				<p>
-					<Headline>{t('feedback.highlight')}</Headline> {t('feedback.text')}
-				</p>
-				<p className='source'>{t('feedback.source')}</p>
+			<div className='link'>{t('feedback.link')}</div>
+			<div className='content'>
+				<Headline>{t('feedback.highlight')}</Headline>
+				<div className='quote'>{t('feedback.text')}</div>
+				<div className='source'>{t('feedback.source')}</div>
 			</div>
 		</div>
 	);

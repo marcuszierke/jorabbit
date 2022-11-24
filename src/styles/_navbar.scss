@@ -2,7 +2,8 @@ nav {
 	display: flex;
 	background-color: $defaultBackgroundColor;
 	justify-content: space-between;
-	padding: 4.25rem $defaultPadding 2.25rem;
+	align-items: center;
+	padding: 3rem $defaultPadding 1.5rem;
 
 	@media screen and (max-width: $mobileWidth) {
 		padding: 1.875rem $defaultMobilePadding;
@@ -10,6 +11,7 @@ nav {
 
 	ul {
 		padding: 0;
+		margin: 0;
 		list-style: none;
 		display: flex;
 		gap: 2.5rem;
@@ -21,11 +23,19 @@ nav {
 		}
 
 		li {
+			margin: 0;
 			cursor: pointer;
+			margin-top: 1rem;
+			font-size: 1.125rem;
+			line-height: 1.25rem;
 
 			a {
 				text-decoration: none;
 				color: $defaultFontColor;
+
+				&:hover {
+					text-decoration: underline;
+				}
 			}
 		}
 	}
