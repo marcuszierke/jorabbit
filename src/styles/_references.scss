@@ -1,49 +1,46 @@
 .references {
 	background-color: $greyBackgroundColor;
 	padding: 9rem $defaultPadding;
+	position: relative;
+	display: flex;
+	justify-content: center;
 
-	#references {
+	.link {
+		position: absolute;
+		top: 9rem;
+		left: $defaultPadding;
+		text-decoration: underline;
+	}
+
+	.icons {
+		max-width: $maxContentWidth;
+		flex-wrap: wrap;
+		justify-content: space-between;
 		display: flex;
-		justify-content: center;
-		align-items: flex-start;
-		position: relative;
-		width: 100%;
+		gap: 5vw 8vw;
 
-		.icons {
-			max-width: 47.5rem;
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
-			align-items: center;
-			gap: 3rem;
-		}
-
-		.link {
-			position: absolute;
-			left: 0;
-			top: 0;
-			text-decoration: underline;
+		img {
+			max-height: 3rem;
+			height: 100%;
 		}
 	}
 
 	@media screen and (max-width: $mobileWidth) {
 		padding: 2rem $defaultMobilePadding 10rem;
+		flex-direction: column;
 
-		#references {
-			flex-direction: column;
+		.link {
+			position: relative;
+			margin-bottom: 3rem;
+			left: 0;
+			top: 0;
+		}
 
-			.icons {
-				gap: 2rem;
+		.icons {
+			justify-content: center;
 
-				img {
-					max-width: 25vw;
-					width: 100%;
-				}
-			}
-
-			.link {
-				position: relative;
-				margin-bottom: 3rem;
+			img {
+				max-height: 2rem;
 			}
 		}
 	}

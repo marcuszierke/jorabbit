@@ -1,11 +1,11 @@
 import { useTranslation } from 'react-i18next';
-import Siemens from '../assets/simens.png';
+import Siemens from '../assets/siemens.png';
 import Jungheinrich from '../assets/jungheinrich.png';
 import Krones from '../assets/krones.png';
 import Biotronik from '../assets/biotronik.png';
-import Satorius from '../assets/satorius.png';
+import Satorius from '../assets/sartorius.png';
 import Draeger from '../assets/draeger.png';
-import BakerHughes from '../assets/baker-huges.png';
+import BakerHughes from '../assets/baker-hughes.png';
 import Seca from '../assets/seca.png';
 import BuschJaeger from '../assets/busch-jaeger.png';
 import Fresenius from '../assets/fresenius.png';
@@ -32,14 +32,12 @@ export const References = () => {
 
 	return (
 		<div className='references'>
-			<div id='references'>
-				<div className='link'>{t('references.link')}</div>
-				<div className='icons'>
-					{Object.keys(icons).map((icon) => (
-						/// @ts-ignore
-						<img src={icons[icon]} alt={`${icon}-icon`} key={icon} />
-					))}
-				</div>
+			<div className='link'>{t('references.link')}</div>
+			<div className='icons'>
+				{Object.keys(icons).map((icon) => (
+					/// @ts-ignore
+					<img src={icons[icon]} alt={`${icon}-icon`} key={icon} />
+				))}
 			</div>
 		</div>
 	);
