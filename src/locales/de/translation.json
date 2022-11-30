@@ -10,11 +10,11 @@
 	},
 	"services": {
 		"title": "Die Challenge",
-		"text": "Innovations-Prozesse in Konzernen sind häufig ineffizient und springen im Ergebnis zu kurz. Zu viel Fokus auf das Produkt. Zu wenig Orientierung am Nutzerbedürfnis - so entstehen Weiterentwicklungen. Aber nicht bahnbrechende Neuerungen.",
+		"text": "Innovations-Prozesse in Konzernen sind häufig ineffizient und springen im Ergebnis zu kurz. Zu viel Fokus auf das Produkt. Zu wenig Orientierung am Nutzerbedürfnis – so entstehen Weiterentwicklungen. Aber nicht bahnbrechende Neuerungen.",
 		"link": "Services"
 	},
 	"solution": {
-		"title": "Die Lösung",
+		"title": "Der Ansatz",
 		"text": "Unsere Innovationsmethoden explorieren und lokalisieren systematisch (forschungsgeführt) Bedürfnisse und Insights von Nutzern. Aus diesem Wissen heraus schaffen wir gemeinsam mit Unternehmen strategisch weitreichende Produkte und Services für die Geschäftsmodelle und die Wertschöpfung der Zukunft. Unser Innovationsansatz basiert auf Design Thinking & Lean UX. Mit Hilfe von UX-Konzepten, Prototypen und Produktvisionen machen wir das Neue erlebbar.",
 		"graphic": "Lösungszyklus",
 		"strategy": "UX Strategy",
@@ -22,8 +22,8 @@
 		"design": "UX Concept & Design",
 		"testing": "Prototyping & Testing"
 	},
-	"fullscreen": {
-		"alt": "Behind the scenes"
+	"caption": {
+		"text": "Behind the scenes"
 	},
 	"about": {
 		"link": "About",
@@ -43,7 +43,7 @@
 	"feedback": {
 		"link": "Kundenfeedback",
 		"highlight": "»User-Centered Design als wahrer Innovationsprozess.",
-		"text": "Evidenz- basierte Mehrwerte, überzeugend kommuniziert, kreiert echten Impact!«",
+		"text": "Evidenzbasierte Mehrwerte, überzeugend kommuniziert, kreiert echten Impact!«",
 		"source": "Tobias Eschenbach, Siemens Healthineers"
 	},
 	"references": {

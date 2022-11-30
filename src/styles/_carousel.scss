@@ -1,0 +1,50 @@
+.carousel {
+	overflow: hidden;
+	position: relative;
+}
+
+.inner {
+	white-space: nowrap;
+	transition: transform 0.3s;
+}
+
+.carousel-item {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: #fff;
+}
+
+.indicators {
+	position: absolute;
+	bottom: 5rem;
+	right: 5rem;
+	display: flex;
+	gap: 2.5rem;
+	justify-content: center;
+
+	button {
+		all: unset;
+		cursor: pointer;
+	}
+
+	@media screen and (max-width: $tabletWidth) {
+		bottom: 2rem;
+		right: 2rem;
+		gap: 1.5rem;
+
+		svg {
+			max-height: 2.5rem;
+		}
+	}
+
+	@media screen and (max-width: $mobileWidth) {
+		bottom: 1.5rem;
+		right: 1rem;
+		gap: 0;
+
+		svg {
+			max-height: 2rem;
+		}
+	}
+}

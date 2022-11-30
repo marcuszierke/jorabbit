@@ -17,7 +17,7 @@
 		flex-wrap: wrap;
 		justify-content: space-between;
 		display: flex;
-		gap: 5vw 8vw;
+		gap: 3rem 4.5rem;
 
 		img {
 			max-height: 3rem;
@@ -25,8 +25,7 @@
 		}
 	}
 
-	@media screen and (max-width: $mobileWidth) {
-		padding: 2rem $defaultMobilePadding 10rem;
+	@media screen and (max-width: 1140px) {
 		flex-direction: column;
 
 		.link {
@@ -35,13 +34,20 @@
 			left: 0;
 			top: 0;
 		}
+	}
+
+	@media screen and (max-width: $tabletWidth) {
+		padding: 2rem $defaultMobilePadding 10rem;
 
 		.icons {
 			justify-content: center;
+			gap: 6vw 8vw;
+		}
+	}
 
-			img {
-				max-height: 2rem;
-			}
+	@media screen and (max-width: $mobileWidth) {
+		.icons img {
+			max-height: 2rem;
 		}
 	}
 }

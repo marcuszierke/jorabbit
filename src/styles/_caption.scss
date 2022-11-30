@@ -1,0 +1,11 @@
+.caption {
+	padding: 2rem $defaultPadding 1rem;
+	background: #fff;
+	text-align: right;
+
+	@media screen and (max-width: $tabletWidth) {
+		padding: 1rem $defaultMobilePadding 0;
+		font-size: 0.875rem;
+		line-height: 1.125rem;
+	}
+}

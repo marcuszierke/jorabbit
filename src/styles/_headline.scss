@@ -26,6 +26,13 @@
 		-webkit-box-decoration-break: clone;
 	}
 
+	@media screen and (max-width: $tabletWidth) {
+		h2 {
+			font-size: 2rem;
+			line-height: 2.5rem;
+		}
+	}
+
 	@media screen and (max-width: $mobileWidth) {
 		h2 {
 			font-size: 1.25rem;

@@ -12,8 +12,14 @@
 		p {
 			font-size: 3.125rem;
 			line-height: 4.0625rem;
-			max-width: $maxContentWidth;
+			width: 700px;
+			min-width: 40%;
+			max-width: 100%;
 			margin: 0;
+			-webkit-hyphens: auto;
+			-moz-hyphens: auto;
+			-ms-hyphens: auto;
+			hyphens: auto;
 		}
 
 		.link {
@@ -24,9 +30,7 @@
 		}
 	}
 
-	@media screen and (max-width: $mobileWidth) {
-		padding: 0 $defaultMobilePadding 1.75rem;
-
+	@media screen and (max-width: 1020px) {
 		.content {
 			flex-direction: column;
 
@@ -34,11 +38,22 @@
 				position: relative;
 				margin-bottom: 0.75rem;
 			}
+		}
+	}
 
-			p {
-				font-size: 1.125rem;
-				line-height: 1.625rem;
-			}
+	@media screen and (max-width: $tabletWidth) {
+		padding: 2rem $defaultMobilePadding 1.75rem;
+
+		.content p {
+			font-size: 2rem;
+			line-height: 2.5rem;
+		}
+	}
+
+	@media screen and (max-width: $mobileWidth) {
+		.content p {
+			font-size: 1.125rem;
+			line-height: 1.625rem;
 		}
 	}
 }

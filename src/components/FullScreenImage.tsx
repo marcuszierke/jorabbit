@@ -1,14 +1,15 @@
-import { t } from 'i18next';
 import { useTranslation } from 'react-i18next';
-import fullscreen from '../assets/fullscreen.png';
 
-export const FullscreenImage = () => {
+type Props = {
+	img: string;
+};
+
+export const FullscreenImage = ({ img }: Props) => {
 	const { t } = useTranslation();
 
 	return (
-		<figure className='fullscreen'>
-			<img src={fullscreen} alt={t('fullscreen.alt')} />
-			<figcaption>{t('fullscreen.alt')}</figcaption>
-		</figure>
+		<div className='fullscreen'>
+			<img src={img} alt={t('fullscreen.alt')} />
+		</div>
 	);
 };

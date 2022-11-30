@@ -1,6 +1,5 @@
 .solution {
 	display: flex;
-	width: 100%;
 
 	.graphic {
 		flex: 1;
@@ -8,15 +7,7 @@
 		margin: 0;
 		display: flex;
 		justify-content: center;
-		padding: 4rem 2rem;
 		align-items: center;
-
-		img {
-			width: 100%;
-			max-width: 800px;
-
-			justify-content: center;
-		}
 	}
 
 	.info {
@@ -25,15 +16,16 @@
 		padding: 4rem;
 		display: flex;
 		flex-direction: column;
+		box-sizing: border-box;
 
 		.title {
-			border-bottom: 2px solid;
 			line-height: 1rem;
+			text-decoration: underline;
 			width: fit-content;
 		}
 
 		.text {
-			margin: 2rem 0 0;
+			margin: 2rem 0;
 			max-width: $textContainerMaxWidth;
 		}
 	}
@@ -45,9 +37,11 @@
 		margin-top: auto;
 	}
 
-	@media screen and (max-width: $mobileWidth) {
+	@media screen and (max-width: 1020px) {
 		flex-direction: column;
+	}
 
+	@media screen and (max-width: $mobileWidth) {
 		.graphic {
 			padding: 4rem 0;
 		}

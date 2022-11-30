@@ -1,4 +1,6 @@
 export * from './About';
+export * from './Caption';
+export * from './Carousel';
 export * from './Feedback';
 export * from './Footer';
 export * from './FullscreenImage';
@@ -8,4 +10,5 @@ export * from './NavBar';
 export * from './Profile';
 export * from './Services';
 export * from './Solution';
+export * from './References';
 export * from './References';

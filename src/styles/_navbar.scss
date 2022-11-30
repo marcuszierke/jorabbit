@@ -5,22 +5,12 @@ nav {
 	align-items: center;
 	padding: 3rem $defaultPadding 1.5rem;
 
-	@media screen and (max-width: $mobileWidth) {
-		padding: 1.875rem $defaultMobilePadding;
-	}
-
 	ul {
 		padding: 0;
 		margin: 0;
 		list-style: none;
 		display: flex;
 		gap: 2.5rem;
-
-		@media screen and (max-width: $mobileWidth) {
-			gap: 1.125rem;
-			font-size: 0.875rem;
-			line-height: 1.125rem;
-		}
 
 		li {
 			margin: 0;
@@ -39,10 +29,26 @@ nav {
 			}
 		}
 	}
+
+	@media screen and (max-width: $tabletWidth) {
+		padding: 1.875rem $defaultMobilePadding;
+	}
+
+	@media screen and (max-width: $mobileWidth) {
+		ul {
+			gap: 1.125rem;
+			padding-bottom: 0.125rem;
+
+			li {
+				font-size: 0.875rem;
+				line-height: 1.125rem;
+			}
+		}
+	}
 }
 
 .logo {
 	@media screen and (max-width: $mobileWidth) {
-		height: 33px;
+		max-width: 7.5rem;
 	}
 }

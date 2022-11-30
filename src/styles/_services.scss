@@ -17,9 +17,16 @@
 		text-decoration: underline;
 	}
 
-	@media screen and (max-width: $mobileWidth) {
+	@media screen and (max-width: $tabletWidth) {
 		padding: 4.5rem $defaultMobilePadding 1rem;
 
+		p {
+			font-size: 2rem;
+			line-height: 2.5rem;
+		}
+	}
+
+	@media screen and (max-width: $mobileWidth) {
 		p {
 			font-size: 1.25rem;
 			line-height: 1.625rem;
