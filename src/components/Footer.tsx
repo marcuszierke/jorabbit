@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 export const Footer = () => {
 	const { i18n, t } = useTranslation();
@@ -18,8 +19,8 @@ export const Footer = () => {
 				</div>
 			</div>
 			<div className='legal'>
-				<a href=''>{t('footer.imprint')}</a>
-				<a href=''>{t('footer.policy')}</a>
+				<Link to='/imprint'> {t('footer.imprint')}</Link>
+				<Link to='/private-policy'> {t('footer.policy')}</Link>
 				<div className='lang'>
 					<button onClick={() => i18n.changeLanguage('de')}>DE</button>
 					<button onClick={() => i18n.changeLanguage('en')}>EN</button>

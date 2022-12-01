@@ -1,22 +1,22 @@
 import { ReactComponent as Logo } from '../assets/logo.svg';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 export const NavBar = () => {
 	const { t } = useTranslation();
 
 	return (
 		<nav>
-			<Logo className='logo' />
+			<Link to='/'>
+				{' '}
+				<Logo className='logo' />
+			</Link>
 			<ul className='tabs'>
-				<li>
-					<a href='#services'>{t('navbar.services')}</a>
-				</li>
-				<li>
-					<a href='#about'>{t('navbar.about')}</a>
-				</li>
-				<li>
-					<a href='#contact'>{t('navbar.contact')}</a>
-				</li>
+				{['services', 'about', 'contact'].map((item) => (
+					<li key={item}>
+						<a href={`#${item}`}>{t(`navbar.${item}`)}</a>
+					</li>
+				))}
 			</ul>
 		</nav>
 	);

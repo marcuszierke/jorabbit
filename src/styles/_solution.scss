@@ -1,17 +1,8 @@
 .solution {
 	display: flex;
 
-	.graphic {
-		flex: 1;
-		background-color: $highlightColor;
-		margin: 0;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
 	.info {
-		flex: 1;
+		flex: 0 0 50%;
 		background-color: $greyBackgroundColor;
 		padding: 4rem;
 		display: flex;
@@ -42,10 +33,6 @@
 	}
 
 	@media screen and (max-width: $mobileWidth) {
-		.graphic {
-			padding: 4rem 0;
-		}
-
 		.info {
 			padding: 2rem $defaultMobilePadding;
 

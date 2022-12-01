@@ -7,13 +7,11 @@ export const Solution = () => {
 
 	return (
 		<div className='solution'>
-			<div className='graphic'>
-				{i18n.language === 'en' ? (
-					<GraphicEn style={{ width: '100%', height: '100%' }} />
-				) : (
-					<GraphicDe style={{ width: '100%', height: '100%' }} />
-				)}
-			</div>
+			{i18n.language === 'en' ? (
+				<GraphicEn style={{ flex: 1, margin: '0 auto', width: '100%' }} />
+			) : (
+				<GraphicDe style={{ flex: 1, margin: '0 auto', width: '100%' }} />
+			)}
 			<div className='info'>
 				<div className='title'>{t('solution.title')}</div>
 				<div className='text'>{t('solution.text')}</div>

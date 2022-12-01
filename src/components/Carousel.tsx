@@ -1,4 +1,4 @@
-import React, { ReactNode, useEffect, useState } from 'react';
+import React, { Children, ReactNode, useEffect, useState } from 'react';
 import { useSwipeable } from 'react-swipeable';
 import { ReactComponent as Arrow } from '../assets/arrow.svg';
 
@@ -38,7 +38,7 @@ export const Carousel = ({ children }: Props) => {
 			if (!paused) {
 				updateIndex(activeIndex + 1);
 			}
-		}, 3000);
+		}, 10_000);
 
 		return () => {
 			if (interval) {
@@ -60,7 +60,7 @@ export const Carousel = ({ children }: Props) => {
 			onMouseLeave={() => setPaused(false)}
 		>
 			<div className='inner' style={{ transform: `translateX(-${activeIndex * 100}%)` }}>
-				{React.Children.map(children, (child: any) => React.cloneElement(child, { width: '100%' }))}
+				{Children.map(children, (child: any) => React.cloneElement(child, { width: '100%' }))}
 			</div>
 			<div className='indicators'>
 				<button

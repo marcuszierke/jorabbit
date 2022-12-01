@@ -1,6 +1,6 @@
 .caption {
 	padding: 2rem $defaultPadding 1rem;
-	background: #fff;
+	background: $defaultBackgroundColor;
 	text-align: right;
 
 	@media screen and (max-width: $tabletWidth) {

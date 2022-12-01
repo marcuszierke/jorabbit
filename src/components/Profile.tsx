@@ -11,7 +11,7 @@ export const Profile = () => {
 			</div>
 			<div className='info'>
 				<div className='title'>{t('profile.intro')}</div>
-				<div className='text'>{t('profile.text')}</div>
+				<div className='text' dangerouslySetInnerHTML={{ __html: t('profile.text') }} />
 				<div className='industry'>{t('profile.industry')}</div>
 				<ul>
 					<li>{t('profile.healthcare')}</li>

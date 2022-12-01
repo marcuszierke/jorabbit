@@ -5,14 +5,14 @@
 
 .inner {
 	white-space: nowrap;
-	transition: transform 0.3s;
+	transition: transform 1s;
 }
 
 .carousel-item {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	background: #fff;
+	background: $defaultBackgroundColor;
 }
 
 .indicators {

@@ -1,6 +1,7 @@
 .hero {
 	height: calc(100vh - 7.8125rem);
 	max-height: calc(49.6875rem + 7.8125rem);
+	background-color: $defaultBackgroundColor;
 	background-image: url('../assets/hero.jpg');
 	background-size: cover;
 	position: relative;
