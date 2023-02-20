@@ -3,7 +3,7 @@ export * from './Caption';
 export * from './Carousel';
 export * from './Feedback';
 export * from './Footer';
-export * from './FullscreenImage';
+export * from './FullScreenImage';
 export * from './Headline';
 export * from './Hero';
 export * from './Imprint';

@@ -1,10 +1,10 @@
 import { useTranslation } from 'react-i18next';
 
 export const Hero = () => {
-	const { t } = useTranslation();
+	const { t, i18n } = useTranslation();
 
 	return (
-		<div className='hero'>
+		<div className='hero' lang={i18n.language}>
 			<div className='hero-content'>
 				<div>
 					<h1>{t('hero.title')}</h1>
