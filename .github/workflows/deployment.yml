@@ -11,13 +11,25 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+
+      - name: Set up NodeJS environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Cache node modules
+        uses: actions/cache@v3
+        id: cache
+        with:
+          path: '**/node_modules'
+          key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
 
       - name: Install dependencies
-        run: npm install
+        run: yarn install
 
       - name: Build React app
-        run: npm run build
+        run: yarn run build
 
       - name: Deploy to Strato.de
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
