@@ -1,0 +1,30 @@
+name: Deploy Website to Production
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build React app
+        run: npm run build
+
+      - name: Deploy to Strato.de
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        with:
+          server: ftp.strato.de
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./build
+          remote-dir: /public_html
+          protocol: ftp
