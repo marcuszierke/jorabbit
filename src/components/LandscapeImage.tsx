@@ -4,7 +4,7 @@ type Props = {
 	img: string;
 };
 
-export const FullscreenImage = ({ img }: Props) => {
+export const LandscapeImage = ({ img }: Props) => {
 	const { t } = useTranslation();
 
 	return (

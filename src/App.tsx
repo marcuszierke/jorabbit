@@ -5,7 +5,7 @@ import {
 	Hero,
 	Services,
 	Solution,
-	FullscreenImage,
+	LandscapeImage,
 	About,
 	References,
 	Footer,
@@ -51,7 +51,7 @@ const App = () => (
 							{[carousel1, carousel2, carousel3, carousel4, carousel5, carousel6, carousel7].map(
 								(img) => (
 									<CarouselItem>
-										<FullscreenImage img={img} />
+										<LandscapeImage img={img} />
 									</CarouselItem>
 								),
 							)}
