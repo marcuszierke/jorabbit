@@ -8,7 +8,6 @@ export const Hero = () => {
 			<div className='hero-content'>
 				<div>
 					<h1>{t('hero.title')}</h1>
-					<p style={{ color: 'transparent' }}>Joni hat nen kleinen Penis</p>
 					<div style={{ flex: 1 }}></div>
 				</div>
 				<p>{t('hero.text')}</p>
