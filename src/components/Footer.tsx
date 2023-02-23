@@ -16,6 +16,7 @@ export const Footer = () => {
 					<div id='mobile'>Sedanstraße 23</div>
 					<div id='mobile'>81667 München</div>
 					<div id='desktop'>Sedanstraße 23, 81667 München</div>
+					<div></div>
 				</div>
 			</div>
 			<div className='legal'>
