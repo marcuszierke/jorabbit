@@ -15,19 +15,19 @@
 	.content {
 		max-width: $maxContentWidth;
 		width: 100%;
-		-webkit-hyphens: auto;
-		-moz-hyphens: auto;
-		-ms-hyphens: auto;
-		hyphens: auto;
+		-webkit-hyphens: unset;
+		-moz-hyphens: unset;
+		-ms-hyphens: unset;
+		hyphens: unset;
 
 		.quote {
 			font-size: 3.125rem;
 			line-height: 4.0625rem;
 			display: inline;
-			-webkit-hyphens: auto;
-			-moz-hyphens: auto;
-			-ms-hyphens: auto;
-			hyphens: auto;
+			-webkit-hyphens: unset;
+			-moz-hyphens: unset;
+			-ms-hyphens: unset;
+			hyphens: unset;
 		}
 
 		.source {
